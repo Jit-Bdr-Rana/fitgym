@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="dashbord1.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="nav.css">
+
+
+</head>
+<body>
+      <div class="right">
+            <ul>
+                  <li><a href="login.html">LOGIN</a></li>
+                  <li><a href="signup.html">SIGNUP</a></li>
+            </ul>
+            </ul>
+      </div>
+
+  <div class="header">
+      <div class="logo">
+   <a href="dashbord.html" class="navbar-brand">BODY <span>FIT</span></a>
+   </div>
+      <i class="fas fa-ellipsis-h"></i>
+    </label>
+
+    <ul class="menu">
+      <a href="dashbord.html">Home</a>
+      <a href="#">COURSE</a>
+      <a href="ACCESSORIES.html">ACCESSORIES</a>
+      <a href="#">FITNESS TUTORIAL</a>
+      <a href="#">DIET PLAN</a>
+      <a href="contact.html">Contact</a>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+    </ul>
+  </div>
+
+
+<!---- ***********************image slider **********---->
+
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="mediaicon/e.jpg" style="width:100%">
+  <img class="mySlides" src="mediaicon/g.jpg" style="width:100%">
+  <img class="mySlides" src="mediaicon/c.jpg" style="width:100%">
+  <img class="mySlides" src="mediaicon/d.jpg" style="width:100%">
+  <img class="mySlides" src="mediaicon/f.jpg" style="width:100%">
+
+ 
+  <button class="prew fa fa-chevron-left" onclick="plusDivs(-1)">&#10094;</button>
+ <button class="next fa fa-chevron-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+  </script>
+
+
+<!---- ***********************image slider end **********---->
+
+
+<section class="site-note">
+  <div class="container">
+    <div class="note-content">
+      <h1>Welcome Notes</h1>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+    </div>
+  </div>
+</section>
+
+<!--********************************** site ervice *********************-->
+
+<section class="site-services">
+   <div class="container">
+     <div class="our-services">
+       <div class="header-intro">
+         <h2>our services</h2>
+           </div>
+
+        <div class="row"></div>
+           <div class="col-md-3">
+             <div class="service-content">
+                <center><img src="mediaicon/Capture.PNG" alt="Responsive image"></center>
+                   <h3>Builder Award</h3>
+                      <p>Lorem ipsum dolor sit amet,  adipiscing elit, sed diam nonummy nibh euimod tincidunt ut laoreet dolore magna aliquam</p>
+                          <center><a class="readmore" href="">ReadMore</a></center>
+              </div>
+          </div>
+
+         <div class="col-md-3">
+       <div class="service-content">
+     <center><img src="mediaicon/Capture3.PNG" alt="Responsive image"></center>
+   <h3>Classes Shedule</h3>
+  <p>Lorem ipsum dolor sit amet,  adipiscing elit, sed diam nonummy nibh euimod tincidunt ut laoreet dolore magna aliquam</p>
+<center><a class="readmore" href="">ReadMore</a></center>
+  </div>
+      </div>
+
+         <div class="col-md-3">
+           <div class="service-content">
+             <center><img src="mediaicon/Capture1.PNG" alt="Responsive image"></center>
+               <h3>Arms & Six Pack</h3>
+                 <p>Lorem ipsum dolor sit amet,  adipiscing elit, sed diam nonummy nibh euimod tincidunt ut laoreet dolore magna aliquam</p>
+                    <center><a class="readmore" href="">ReadMore</a></center>
+            </div>
+        </div>
+
+         <div class="col-md-3">
+       <div class="service-content">
+     <center><img src="mediaicon/Capture2.PNG" alt="Responsive image"></center>
+   <h3>Cheap Price</h3>
+  <p>Lorem ipsum dolor sit amet,  adipiscing elit, sed diam nonummy nibh euimod tincidunt ut laoreet dolore magna aliquam</p>
+<center><a class="readmore" href="">ReadMore</a></center>
+        </div>
+            </div>
+      </div>
+   </div>
+</section>
+<!--.***************************************site-cntent-end *******************-->
+  </div>
+</section>
+
+<!----- trainer infoo ********************------->
+<section class="site-news">
+  <div class="container">
+  <div class="news-header">
+    <h1>Meet Our Trainers</h1>
+  </div>
+    <div class="news-content">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Jit bdr rana</h2>
+            <center><img src="mediaicon/jit.jpg" class="img-responsive"></center>
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+              <center><a class="readmore" href="">More</a></center>
+              </div>
+
+              <div class="col-md-4">
+              <h2>Patrick crestha</h2>
+              <center><img src="mediaicon/patrick.jpg" class="img-responsive"></center>
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+               <center><a class="readmore" href="">More</a></center>
+             </div>
+            
+
+            <div class="col-md-4">
+          <h2>Quantum Rai</h2>
+        <center><img src="mediaicon/sajan.jpg" class="img-responsive"></center>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+      <center><a class="readmore" href="">More</a></center>
+    </div>
+      </div>
+         </div>
+           </div>
+             </section>
+<!----********************* trainer info  end***********-->
+
+<footer>
+	<div class="footer-top">
+		<div class="container">
+             <div class="row">
+             <div class=" col-md-3 col-sm-6 col-xs-12 segment-one">
+             	<h3>Bodyfit</h3>
+             	<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+             	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+             	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+             	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+             	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+             	</div>
+             	<div class=" col-md-3 col-sm-6 col-xs-12 segment-two">
+             		<h2>Bodyfit</h2>
+             		<ul>
+             			<li><a href="#">Event</a></li>
+             			<li><a href="#">Support</a></li><li><a href="#">Hosting</a></li>
+             			<li><a href="#">Blogs</a></li>
+
+             	    </ul>
+             	</div>
+             	<div class="col-md-3 col-sm-6 col-xs-12 segment-three">
+             		<h2>follow us</h2>
+             		<p> please flow us on social media</p>
+             		<a href="#"><img src="mediaicon/facebook.png " height="40px" width="40px" ></a>
+             		<a href="#"><img src="mediaicon/google-plus.png " height="40px" width="40px" ></i></a>
+             		<a href="#"><img src="mediaicon/instagram.png " height="40px" width="40px" ></a>
+             		<a href="#"><img src="mediaicon/twitter.png " height="40px" width="40px" ></a>
+             	</div>
+             	<div class="col-md-3 col-sm-6 col-xs-12 segment-four">
+             		<h2>our newletter</h2>
+             			<p>Send your email address</p>
+             			<form action="">
+             				<input type="email" placeholder="email address">
+             				<input type="submit" value="send">
+             			</form>
+
+             	</div>	
+             </div>
+		</div>
+	</div>
+<p class="footer-bottom-text">All right reserve by &copy;Bodyfit.2019</p>
+</footer>
+</div>
+</body>
+</html>
