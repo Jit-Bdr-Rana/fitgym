@@ -1,7 +1,6 @@
 /*common css---*/
-p{
-	text-align: center;
-}
+
+
 h5{
 	text-align: center;
 }
@@ -181,5 +180,23 @@ span{
     right: 0;
   }
 }
-
+//* assessories
+*/
+.orderbtn a
+{
+  text-align: center;
+  text-decoration: none;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  background: blue;
+  border-radius: 5px;
+  padding: 8px;
+  color: #fff;
+  text-decoration-style: none;
+}
+.orderbtn a:hover{
+  color:green;
+  background: white;
+}
   

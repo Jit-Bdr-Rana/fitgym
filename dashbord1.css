@@ -35,12 +35,7 @@
   padding: 0;
   font-family: "montserrat",sans-serif;
 }
-.header{
-  height: 100px;
-  background: #34495e;
-  padding: 0 20px;
-  color: #fff;
-}
+
 .logo{
   line-height: 100px;
   float: left;
@@ -381,3 +376,35 @@ a.readmore:hover{
     margin-top: 20px;
 }
 /** trainer info****/
+.clearfix:before,
+.clearfix:after,
+ {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+.row:after,
+.clearfix:after {
+  clear: both; }
+.row,
+.clearfix {
+  zoom: 1; }
+
+  .header-top {
+    background: #fff;
+    min-height: 32px;
+    padding: 1.5em 0;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    clear: both;
+    border-bottom: 1px solid ;
+      }
+
+  /*/ slider info*/
+   .slider1
+ {
+  background: red;
+ }

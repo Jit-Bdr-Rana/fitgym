@@ -1,11 +1,9 @@
-body{ background: url(mediaicon/signup.jpg);
-	background-size:cover;
-	font-family: arial;
-	  -webkit-background:cover;
-       background-position: center center;
-      height: 100vh;
-
-   }
+  body{
+            background: url(mediaicon/login.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     }
 .left {
      float: left;
      top: 100%;
@@ -46,7 +44,7 @@ body{ background: url(mediaicon/signup.jpg);
      h2 { text-align:center;
 
         }
-        input[type=text],input[type=password]
+        input[type=text],input[type=password],input[type=email],input[type=email]
         {
         	width:100%;
         	box-sizing: border-box;
